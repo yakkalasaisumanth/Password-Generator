@@ -1,0 +1,7 @@
+python-secrets
+pybase64
+messagebox
+random2
+random11
+more-itertools
+cryptography

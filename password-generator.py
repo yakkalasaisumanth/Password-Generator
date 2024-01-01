@@ -126,7 +126,7 @@ def newwindow_1(Login):
 		valid = validate_credentials(username, password, correct_username, correct_salt, correct_hash)
 
 		if valid:
-			print("LOGIN Sucessfull")
+			
 			newwindow_1.destroy()
 			root.destroy()
 
@@ -232,6 +232,7 @@ def newwindow_1(Login):
 					smalls.delete(0, END)
 					nums.delete(0, END)
 					specials.delete(0, END)
+					messagebox.showinfo("Info", "Username & Password Sucessfully Saved To Authentication.txt" + "\n" + "\n" + "To Create Another Username & Password Please Fill The Details Again and Click Submit" + "\n" + "\n" +Please Encrypt The File By Entering The password and click Encrypt.")
 
 				return
 			

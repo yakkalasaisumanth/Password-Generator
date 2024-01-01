@@ -232,7 +232,7 @@ def newwindow_1(Login):
 					smalls.delete(0, END)
 					nums.delete(0, END)
 					specials.delete(0, END)
-					messagebox.showinfo("Info", "Username & Password Sucessfully Saved To Authentication.txt" + "\n" + "\n" + "To Create Another Username & Password Please Fill The Details Again and Click Submit" + "\n" + "\n" +Please Encrypt The File By Entering The password and click Encrypt.")
+					messagebox.showinfo("Info", "Username & Password Sucessfully Saved To Authentication.txt" + "\n" * 2 + "To Create Another Username & Password Please Fill The Details Again and Click Submit" + "\n" * 2 + "Please Encrypt The File By Entering The password and click Encrypt.")
 
 				return
 			

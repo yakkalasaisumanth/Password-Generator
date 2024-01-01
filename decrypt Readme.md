@@ -19,7 +19,7 @@
 - for Linux in terminal please write down the command as follows:
 
 ```
-python3 decryptor.py
+python3 decrypt.py
 ```
 
 #### Thanks For Using This Tool.

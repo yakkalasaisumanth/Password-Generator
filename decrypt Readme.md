@@ -18,9 +18,9 @@
 
 - for Linux in terminal please write down the command as follows:
 
-'''
+```
 python3 decryptor.py
-'''
+```
 
 #### Thanks For Using This Tool.
 
